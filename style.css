@@ -1,0 +1,48 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: linear-gradient(to right, rgb(92, 145, 229), rgb(152, 63, 198)) */
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 13em;
+}
+
+#myButton {
+    background-color: #b9e007;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    color: rgb(216, 2, 2);
+    cursor: pointer;
+    border: 1px solid #95d442;
+}
+
+#myButton2 {
+    background-color: #0ddbc0;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    color: rgb(62, 5, 153);
+    cursor: pointer;
+    border: 1px solid #0ddbc0;
+}
+
+h2 {
+    color: white;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.copyCode {
+    width: 350px;
+    border: 1px solid rgb(176, 226, 135);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px 10px;
+}
